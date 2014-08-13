@@ -3,6 +3,11 @@
 I configured my workstation to use chef-dk along with vagrant/virtualbox
 for a virtualized testing environment.
 
+## Development Environment
+
+For testing, the emoti-reader service is deployed through a chef
+cookbook found in [./chef](chef)
+
 ## Configuring Workstation
 
 ```bash
