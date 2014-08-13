@@ -1,0 +1,17 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+- name: ubuntu-trusty64
+  driver_config:
+    box: ubuntu/trusty64
+
+suites:
+  - name: default
+    run_list:
+      - recipe[apt]
+      - recipe[emoti_reader::default]
