@@ -1,3 +1,5 @@
+# rubocop:disable LineLength, SingleSpaceBeforeFirstArg, Style/RescueModifier
+
 name             'emoti_reader'
 maintainer       'Daniel Robert Couture'
 maintainer_email 'mathyourlife@gmail.com'
