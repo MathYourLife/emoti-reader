@@ -10,3 +10,6 @@ version          IO.read(File.join(File.dirname(__FILE__), 'VERSION')) rescue '0
 
 depends 'apt'
 depends 'heka'
+depends 'runit'
+depends 'zookeeper'
+depends 'kafka'
