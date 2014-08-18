@@ -2,6 +2,21 @@
 
 My playground for creating a system to track and display the emotion of a book while being read
 
+## Test Books
+
+Based on the suggestions from some trusted former colleagues at Newmarket, these books cover a wide range of emotions from various characters.
+
+* Memoir by Cheryl Strayed called Wild
+* a John Irving book
+* Ordinary Grace by William Kent Krueger
+* Through Black Spruce by Joseph Boyden
+* The Art of Fielding
+* The Book Thief
+* Alena, by Rachel Pastan
+* Fault in our Stars, by John Green
+* Pillars of the earth
+
+
 ## Current Status
 
 Use heka as an input stream.  Through chef, heka is configured to
