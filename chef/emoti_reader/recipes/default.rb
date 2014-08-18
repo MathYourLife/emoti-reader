@@ -8,6 +8,7 @@
 #
 
 include_recipe 'heka'
+include_recipe 'python::pip'
 
 template '/etc/heka/readin.toml' do
   source 'heka/readin.toml.erb'
@@ -29,3 +30,8 @@ template '/opt/kafka/config/server.properties' do
   )
   notifies :restart, 'service[kafka]'
 end
+
+
+include_recipe 'leiningen'
+
+python_pip 'streamparse'

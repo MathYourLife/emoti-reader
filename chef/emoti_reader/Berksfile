@@ -5,3 +5,5 @@ metadata
 cookbook 'heka', git: 'git://github.com/augieschwer/chef-cookbook-heka.git'
 cookbook 'zookeeper', git: 'git://github.com/SimpleFinance/chef-zookeeper.git'
 cookbook 'kafka', git: 'git://github.com/mthssdrbrg/kafka-cookbook.git'
+cookbook 'python'
+cookbook 'leiningen', git: 'git://github.com/runa-labs/chef-leiningen.git'
