@@ -6,5 +6,8 @@ default["emoti_reader"]["readin"] = {
 default["emoti_reader"]["kafka"] = {
   "port" => 9092
 }
-normal[:lein][:user] = 'root'
-normal[:lein][:group] = 'root'
+normal[:lein][:user] = "root"
+normal[:lein][:group] = "root"
+default["emoti_reader"]["nltk"] = {
+  "pkgs" => %w{ stopwords book brown punkt }
+}
