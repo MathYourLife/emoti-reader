@@ -7,6 +7,9 @@
 #
 #
 
+include_recipe "storm::nimbus"
+include_recipe "storm"
+
 include_recipe "heka"
 include_recipe "python::pip"
 
